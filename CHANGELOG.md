@@ -5,3 +5,6 @@
 - `motion` skill: decision steps, tokens, CSS / Expo / SwiftUI references, loading states, choreography, review checklist
 - Decision log for motion conflicts (docs/decisions/motion.md)
 - Motion evals
+- `typography` skill: roles, line height, tracking, measure, floors, families, numbers, wrapping; web / SwiftUI / Expo references; numbers & punctuation; review checklist
+- Decision log for typography conflicts; typography evals
+- Credit ehmo/platform-design-skills in NOTICE

@@ -14,6 +14,7 @@ project-design-kraf is licensed under Apache 2.0 (see LICENSE). It contains guid
 | Hallmark | Hallmark contributors | [Nutlope/hallmark](https://github.com/Nutlope/hallmark) | `4f6a46c` | MIT |
 | Interface Design | Damola Akinleye | [Dammyjay93/interface-design](https://github.com/Dammyjay93/interface-design) | `2f9be32` | MIT |
 | Better skills | Jakub Krehel | [jakubkrehel/skills](https://github.com/jakubkrehel/skills) | `592aedc` | MIT |
+| Platform Design Skills (via Impeccable's iOS/Android references) | ehmo | [ehmo/platform-design-skills](https://github.com/ehmo/platform-design-skills) | via Impeccable `4f95649` | MIT |
 | Skullet (design reference only) | Lochie Axon | [lochie/skullet](https://github.com/lochie/skullet) | `770cba4` | MIT |
 
 The Refactoring UI principles originate in the book *Refactoring UI* by Adam Wathan and Steve Schoger. We describe them in our own words; buy the book for the real thing.
