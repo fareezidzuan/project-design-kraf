@@ -1,0 +1,8 @@
+{
+  "name": "project-design-kraf",
+  "version": "0.1.0",
+  "description": "Design craft for AI agents: visual direction, typography, motion, loading states and scored UI review.",
+  "author": { "name": "fareezidzuan" },
+  "license": "Apache-2.0",
+  "repository": "https://github.com/fareezidzuan/project-design-kraf"
+}
