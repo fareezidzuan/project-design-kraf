@@ -10,3 +10,5 @@
 - Credit ehmo/platform-design-skills in NOTICE
 - `design-direction` skill: brief, subject inventory, signature, plan, review, build, checks; app-screen and page references; dated list of generated-look defaults; shared `.design/system.md` template
 - Decision log for design-direction conflicts; design-direction evals
+- `ui-review` skill: scope, project conventions, seven-area review, Blocker/Major/Polish with automatic blockers, evidence rules, cheapest-fix ladder, /28 scorecard and verdict; checklist, scoring rubric, generic-pattern review guide, change (PR/branch) review mode
+- Decision log for ui-review conflicts; ui-review evals
