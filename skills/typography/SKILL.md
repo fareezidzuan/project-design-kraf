@@ -1,6 +1,6 @@
 ---
 name: typography
-description: Set and review how text looks and behaves: type scale and roles, line height, letter spacing, line length, font choice and loading, numbers, wrapping, truncation and punctuation, for web, SwiftUI and Expo/React Native. Use when building or reviewing any screen with text, defining a type scale, or when text feels cramped, flat, amateur or hard to read.
+description: Set and review how text looks and behaves: fonts and font pairing, type scale, line height, letter spacing, line length, headings and labels (including uppercase or eyebrow labels), numbers and currency formatting, wrapping and truncation, font loading, and text scaling (Dynamic Type, Android font scale, React Native allowFontScaling, browser zoom). Use for web, SwiftUI and Expo/React Native whenever text is added, styled or reviewed, when text is cut off at large font sizes, or when text feels cramped, flat or amateur.
 ---
 
 # Typography
@@ -83,9 +83,14 @@ Long-form text: **45–75 characters per line**, aiming for about 65. Set a maxi
 
 Text must survive **200% zoom / largest Dynamic Type / Android font scale 1.3+** without clipping or overlapping. Never lock text size to fixed pixels or points where the platform offers scalable units.
 
+If asked to disable text scaling, **lead with why not** and the real fix (let the layout wrap or grow; cap growth with a multiplier only on the few elements that truly can't grow). Show how to disable it only if the user still insists after that.
+
 ## 10. Punctuation and case
 
-Store copy in natural case and apply case with styling. Use real typographic characters in rendered text: … – — “ ” ’. Sentence case for UI labels and buttons unless the brand system says otherwise.
+Store copy in natural case and apply case with styling.
+
+**Uppercase labels above headings** ("FEATURES", "PRICING") that only repeat what the heading says add noise and are one of the most common generated-looking patterns. If asked for them, say so first and suggest an alternative (a stronger heading, or a label that adds real information such as a count or status). Add them only if the user confirms, sentence case or tracked +0.02–0.06em.
+ Use real typographic characters in rendered text: … – — “ ” ’. Sentence case for UI labels and buttons unless the brand system says otherwise.
 
 ## Platform implementation
 

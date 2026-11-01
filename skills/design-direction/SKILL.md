@@ -10,7 +10,8 @@ Generated UI tends to look like the average of everything the model has seen. Th
 ## 0. Check what's already decided
 
 - If the project has `.design/system.md` (or `DESIGN.md`) with a direction, **apply it**. Don't re-propose. Only revisit it if the user asks for a redesign.
-- If there is an existing brand (logo, colours, fonts), keep it. Direction then covers composition, density, depth and the signature, not the brand itself.
+- If there is an existing brand (logo, colours, fonts), keep it **with its own names and values**. Direction then covers composition, density, depth and the signature, not the brand itself. You may add roles the brand lacks (semantic colours, neutral surfaces); label them clearly as additions.
+- If the brief or brand asks for a look that appears in [references/defaults.md](references/defaults.md), use it **without commentary**. That list is only for choices the brief leaves open.
 - If neither exists, continue below and save the result at the end.
 
 ## 1. Page or app screen?

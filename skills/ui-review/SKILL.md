@@ -1,6 +1,6 @@
 ---
 name: ui-review
-description: Review a screen, flow, page, component or code change for usability, accessibility, hierarchy, typography, colour, motion, states and craft, and return one scored, ranked report with concrete fixes. Use when asked to review, critique, audit or QA a design or UI, before shipping, or when reviewing a pull request or branch that touches interface code.
+description: Review a screen, flow, page, component, copy or code change for usability, accessibility, hierarchy, typography, colour, motion, states and craft, and return one scored, ranked report with concrete fixes. Use when asked to review, critique, audit or QA a design, UI, landing page copy, pull request or branch that touches interface code, or before shipping.
 ---
 
 # UI review

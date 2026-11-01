@@ -1,6 +1,6 @@
 ---
 name: motion
-description: Decide whether and how UI should move, then build it. Easing, durations, springs, press feedback, gestures, enter/exit, stagger and loading states for CSS/web, Expo/React Native and SwiftUI. Use when adding, tuning or reviewing any animation or transition, or when motion feels slow, cheap or janky.
+description: Decide whether and how UI should move, then build it: transitions, animations, easing, durations, springs, press feedback, gestures and swipe-to-dismiss, sheets, enter/exit, stagger, skeletons and loading states, for CSS/web, Expo/React Native and SwiftUI. Use when adding, tuning or reviewing any animation or loading state, or when motion feels slow, cheap or janky.
 ---
 
 # Motion
@@ -21,6 +21,8 @@ If the project has `.design/system.md` (or `DESIGN.md`) with a **Motion** sectio
 | Rarely (onboarding, success, celebration, empty states) | Room for expression |
 
 Anything triggered from the keyboard should not animate. Tabs are peers: never slide between them.
+
+**When the user asks for motion that fails this gate:** say so in the first line, and make the recommended alternative the main deliverable (for tabs: switch content instantly and, at most, move the selected-tab indicator). Offer the requested version in one sentence ("If you still want the slide, I can add a 120ms version") rather than writing it unprompted.
 
 ## 2. Name the purpose in one word
 
