@@ -31,6 +31,8 @@ Work through [references/checklist.md](references/checklist.md) in this order, s
 6. **Motion**: use the `motion` skill's review checklist.
 7. **Craft and specificity**: does it feel designed for this product? See [references/ai-slop-patterns.md](references/ai-slop-patterns.md).
 
+**Money on screen?** If the screen shows balances, amounts or cards, or moves money, also apply the `fintech-review` skill and add its **Money** area to the scorecard.
+
 ## 4. Rank by user impact
 
 | Severity | Means |

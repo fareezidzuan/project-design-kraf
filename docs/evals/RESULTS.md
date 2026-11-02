@@ -49,6 +49,28 @@ Full suite, 2 Nov 2026: 35 cases × 2 runs, each run with the plugin and without
 | type-07-prices | 2/2 | 1/2 |  |
 | type-08-project-tokens | 2/2 | 2/2 |  |
 
+## fintech-review (added 2 Nov 2026)
+
+| Case | With plugin | Without | Note |
+|---|---|---|---|
+| fin-01-transfer-review | 2/2 | 2/2 | |
+| fin-02-card-number | 2/2 | 0/2 | |
+| fin-03-timeout-success | 2/2 | 2/2 | |
+| fin-04-loading-balance | 2/2 | 2/2 | |
+| fin-05-money-out-red | 2/2 | 2/2 | Haiku judge failed both with-plugin runs; re-graded with `--judge-model sonnet`: 2/2. Answer meets every criterion |
+| fin-06-missing-rules | 2/2 | 0/2 | |
+| fin-07-balance-vs-limit | 2/2 | 1/2 | |
+
+**fintech-review: 14/14 with plugin · 9/14 without** (fin-05 re-graded with Sonnet).
+
+## Judge model
+
+The default judge (Claude Haiku) sometimes fails correct answers, especially long ones that open with a note about the empty test workspace. For release checks, grade with a stronger judge:
+
+```bash
+claude plugin eval . --runs 2 -j 4 --judge-model sonnet
+```
+
 ## How to run
 
 ```bash

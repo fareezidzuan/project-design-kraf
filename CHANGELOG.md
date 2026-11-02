@@ -14,3 +14,5 @@
 - Decision log for ui-review conflicts; ui-review evals
 - Eval suite: 35 runnable cases for `claude plugin eval` (prompt + LLM grader each); readable tables moved to docs/evals/; results in docs/evals/RESULTS.md
 - Fixes from eval findings: motion gate rule for requested-but-rejected animation; typography pushback rules for disabling text scaling and decorative uppercase labels; design-direction keeps brand names and uses brief-requested looks without commentary; wider skill descriptions so skills load on real phrasing
+- `fintech-review` skill: amounts and balances, sensitive data, step-up, moving money, receipts and statements, money errors, Islamic-banking terminology (reads project rules, never invents them); six money blockers; linked from `ui-review`
+- fintech-review decision notes and 7 eval cases

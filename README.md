@@ -1,6 +1,6 @@
 # project-design-kraf
 
-Design craft for AI agents. Four skills that take UI from "works" to "well made":
+Design craft for AI agents. Five skills that take UI from "works" to "well made":
 
 | Skill | What it does |
 |---|---|
@@ -8,6 +8,7 @@ Design craft for AI agents. Four skills that take UI from "works" to "well made"
 | `typography` | Type scale, line height, measure and font loading by role |
 | `motion` | Easing, durations, springs and loading states for CSS, Expo and SwiftUI |
 | `ui-review` | One scored review, findings ranked by severity |
+| `fintech-review` | Extra checks for screens that show or move money: balances, masking, step-up, transfers, receipts, and the project's own banking rules |
 
 Pure Markdown: no scripts, hooks or installers.
 
