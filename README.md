@@ -14,17 +14,32 @@ Pure Markdown: no scripts, hooks or installers.
 
 ## Install
 
+In Claude Code (2.1.275 or later):
+
+```
+/plugin install project-design-kraf --marketplace fareezidzuan/project-design-kraf
+```
+
+Or add the marketplace first, then install from it:
+
 ```
 /plugin marketplace add fareezidzuan/project-design-kraf
+/plugin install project-design-kraf@project-design-kraf
 ```
+
+Works well alongside [project-workflow-skills](https://github.com/fareezidzuan/project-workflow-skills), whose `brand-style-profile` skill writes the `DESIGN.md` these skills read.
 
 ## Project config
 
-Put your own tokens in `.design/system.md` in your project and every skill will use them.
+Put your own tokens and decisions in `DESIGN.md` (or `.design/system.md`) at your project root and every skill will use them. The format is in `skills/design-direction/references/system-template.md`. Keep client-specific rules in the client's own repo, not here.
+
+## Tests
+
+42 eval cases run with `claude plugin eval`. Latest results are in [docs/evals/RESULTS.md](docs/evals/RESULTS.md).
 
 ## Credits
 
-Built on the work of Emil Kowalski, LottieFiles, Wondel.ai, Vercel Labs, Paul Bakaus (Impeccable), Anthropic, Leonxlnx (Taste Skill), Hallmark, Damola Akinleye (Interface Design), Jakub Krehel and Lochie Axon (Skullet). See [NOTICE.md](NOTICE.md).
+Built on the work of Emil Kowalski, LottieFiles, Wondel.ai, Vercel Labs, Paul Bakaus (Impeccable), Anthropic, Leonxlnx (Taste Skill), Hallmark, Damola Akinleye (Interface Design), Jakub Krehel, ehmo (platform-design-skills) and Lochie Axon (Skullet). See [NOTICE.md](NOTICE.md).
 
 ## License
 

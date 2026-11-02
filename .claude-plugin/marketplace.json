@@ -1,0 +1,14 @@
+{
+  "name": "project-design-kraf",
+  "owner": {
+    "name": "Fareez"
+  },
+  "description": "Design-craft skills for AI agents: direction, typography, motion, UI review and fintech checks.",
+  "plugins": [
+    {
+      "name": "project-design-kraf",
+      "source": "./",
+      "description": "Design craft for AI agents: visual direction, typography, motion, loading states, scored UI review and fintech checks."
+    }
+  ]
+}

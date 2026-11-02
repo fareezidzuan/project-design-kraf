@@ -1,8 +1,21 @@
 {
   "name": "project-design-kraf",
   "version": "0.1.0",
-  "description": "Design craft for AI agents: visual direction, typography, motion, loading states and scored UI review.",
-  "author": { "name": "fareezidzuan" },
+  "description": "Design craft for AI agents: visual direction, typography, motion, loading states, scored UI review and fintech checks, for web, SwiftUI and Expo.",
+  "author": {
+    "name": "Fareez"
+  },
   "license": "Apache-2.0",
-  "repository": "https://github.com/fareezidzuan/project-design-kraf"
+  "repository": "https://github.com/fareezidzuan/project-design-kraf",
+  "keywords": [
+    "design",
+    "ui",
+    "ux",
+    "motion",
+    "typography",
+    "review",
+    "swiftui",
+    "expo",
+    "fintech"
+  ]
 }
