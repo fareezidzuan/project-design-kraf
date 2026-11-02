@@ -1,5 +1,23 @@
 # Eval results
 
+## Release run (2 Nov 2026, Sonnet judge)
+
+**With plugin: 76/84 (90%) · Without: 47/84 (56%)** — 42 cases × 2 runs, each run with and without the plugin, graded by Claude Sonnet (`--judge-model sonnet`). No run errors.
+
+| Skill | With plugin | Without |
+|---|---|---|
+| design-direction | 14/16 | 10/16 |
+| motion | 18/18 | 9/18 |
+| typography | 13/16 | 7/16 |
+| ui-review | 17/20 | 11/20 |
+| fintech-review | 14/14 | 10/14 |
+
+Below 2/2 with the plugin: dir-02 (1/2), dir-03 (1/2, asked for the missing code first but applied the project direction), rev-05 (0/2, correct finding and fix but not labelled Blocker/Introduced), rev-09 (1/2), type-02 (1/2, loads an unused font weight), type-05 (0/2, known limitation: the skill does not load for a one-line "just tell me how" question).
+
+---
+
+## Earlier run (Haiku judge)
+
 **With plugin: 62/70 (89%) · Without: 46/70 (66%)**
 
 Full suite, 2 Nov 2026: 35 cases × 2 runs, each run with the plugin and without it as a baseline, graded by an LLM judge (Claude Haiku). No run errors.
