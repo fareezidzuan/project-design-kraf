@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.2.0 — 2026-11-03
+For designers with no GitHub experience.
+- README install steps for the Claude desktop and web app, Cowork and Claude Code; updating without Claude Code; "No Git? No problem" section with starter prompts
+- Release ZIPs (one per skill, plus a plugin ZIP) built and attached to each GitHub release by `.github/workflows/release-zips.yml` (`scripts/build-skill-zips.sh`); every ZIP carries LICENSE, NOTICE.md and licenses/
+- `ui-review`: reviews from a Figma link or screenshot alone; "review my changes" without Git uses before/after; plain-language reports (Where by screen and layer, code locations in a "For developers" line) when `Explain: plain` is set or the reader is a designer
+- `design-direction`: saves to the project folder root when there is no repo, prefers `DESIGN.md` there, and offers a download when Claude has no folder access
+
 ## 0.1.0 — 2026-11-02
 - Repo scaffold, sources pinned
 - `motion` skill: decision steps, tokens, CSS / Expo / SwiftUI references, loading states, choreography, review checklist

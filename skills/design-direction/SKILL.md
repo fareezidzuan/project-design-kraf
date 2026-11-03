@@ -88,3 +88,7 @@ For new products, major redesigns, or directions that are costly to undo, show t
 ## 9. Save the direction
 
 Write (or offer to write) the result to `.design/system.md` so every later screen, and the `motion`, `typography` and `ui-review` skills, use the same decisions.
+
+- **Where:** the project root. That is the repo root, or the project folder's root when there is no repo (a `CLAUDE.md` with `Git: none`). If the project already has a `DESIGN.md`, add a **Direction** section there instead of creating a second file. With no repo, prefer `DESIGN.md`: folders starting with a dot, like `.design/`, are hidden in Finder and File Explorer.
+- **No folder access** (for example the web app with no connected folder): give the file as a download and say "save this as `DESIGN.md` in your project folder". Never claim it was saved.
+- With `Explain: plain` in `CLAUDE.md`, summarise the direction in design words first (palette, type, density, signature), then the file.

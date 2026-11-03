@@ -1,1 +1,4 @@
 evals/results/
+
+# Built ZIPs (scripts/build-skill-zips.sh)
+dist/

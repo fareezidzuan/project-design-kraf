@@ -11,6 +11,8 @@ One review, one report. Findings are backed by evidence, ranked by user impact, 
 
 - **A screen, flow, page or component:** state exactly what you reviewed, including loading, empty, error and narrow-width states where they exist. If the scope is too big to inspect properly, narrow it to one complete flow and say what you left out.
 - **A pull request, branch, commit range or uncommitted work:** this is a change review. Follow [references/change-review.md](references/change-review.md).
+- **"Review my changes" with no Git** (no repo, or the user doesn't use Git): don't ask for a branch or diff. Ask for the before and after (two Figma links, frames, screenshots or exports) and review the after, focusing on what changed. Otherwise review the current design as a screen or flow.
+- **A Figma link, screenshot or image only:** review it as a screen; no repo or code is needed. Code-only checks (lint, a11y tests) are "Not verified", not findings.
 
 ## 2. Learn the project first
 
@@ -82,6 +84,14 @@ Score the seven areas 0–4 using [references/scoring.md](references/scoring.md)
 - **Ship**: Polish only, or nothing to report.
 
 Never approve what you didn't inspect.
+
+## Plain language
+
+If the project's `CLAUDE.md` has `Explain: plain`, or the reader is a designer reviewing a design rather than code:
+- Write **Where** as the screen, frame or layer ("Checkout › Pay button"), not `path/to/file:line`. Put code locations, if any, in one "For developers" line under the finding.
+- Write **Change to** as the design change ("raise the label to 16 px, Text/Body style"), not a code diff.
+- Explain an unavoidable technical term in a few words the first time.
+Severities, evidence rules and the scorecard stay the same.
 
 ## Report format
 
